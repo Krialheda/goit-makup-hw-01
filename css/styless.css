@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+.body {
+  color: black;
+  font-family: sans-serif, 'Roboto';
+}
+
+:root {
+  --parrafo-color: rgb(83, 86, 90);
+  --subtitulos-color: rgb(0, 0, 0);
+}
+
+.weblogo {
+  color: blue;
+  font-size: 26px;
+  letter-spacing: 0.03px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+
+.head_link {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.02px;
+  line-height: 1.17;
+}
+
+.head_link:hover {
+  color: rgb(0, 68, 255);
+}
+
+.head_info {
+  color: rgb(83, 86, 90);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.02px;
+  line-height: 1.17;
+}
+
+.headinfo:hover {
+  color: rgb(0, 68, 255);
+}
+
+.principal_title {
+  background-color: rgb(36, 33, 33);
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 44px;
+  letter-spacing: 0.06px;
+  line-height: 1.36;
+}
+
+.firstbutton {
+  background-color: rgb(0, 68, 255);
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.06px;
+  line-height: 1.87;
+}
+
+.firstbutton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.princ_skills {
+  color: var(--subtitulos-color);
+  font-size: 14px;
+  letter-spacing: 0.03px;
+  line-height: 1.17;
+}
+
+.Parrafos_skill {
+  color: var(--parrafo-color);
+  font-size: 14px;
+  letter-spacing: 0.03px;
+  line-height: 1.71;
+}
+
+.subtis_principal {
+  color: var(--subtitulos-color);
+  font-size: 36px;
+  letter-spacing: 0.03px;
+  line-height: 1.17;
+}
+
+.team_name {
+  color: var(--subtitulos-color);
+  font-size: 16px;
+  letter-spacing: 0.03px;
+  line-height: 1.17;
+}
+.team_Parrafos {
+  color: var(--parrafo-color);
+  font-size: 16px;
+  letter-spacing: 0.03px;
+  line-height: 1.17;
+}
+
+.potf_button {
+  text-align: center;
+}
+
+.main_button {
+  background: beige;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.03px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.main_button:hover {
+  background-color: rgb(40, 117, 204);
+  color: white;
+  cursor: pointer;
+}
+
+.subtis_portf {
+  color: var(--subtitulos-color);
+  font-size: 18px;
+  letter-spacing: 0.06;
+  line-height: 2;
+}
+
+.potf_parrafo {
+  color: var(--parrafo-color);
+  font-size: 16px;
+  letter-spacing: 0.03px;
+  line-height: 1.87;
+}
+
+.foot_info {
+  color: var(--parrafo-color);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.03px;
+  line-height: 1.7;
+}
+
+.list {
+  list-style: none;
+}
+
+.link:focus {
+  color: rgb(0, 68, 255);
+}
+.link:active {
+  color: red;
+}
+
+.title_portfolio {
+  display: none;
+}
