@@ -1,23 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
-* {
-  font-family: 'Raleway', 'Roboto', sans-serif;
-}
-
 .body {
-  color: black;
-  font-family: sans-serif, 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
-  --parrafo-color: rgb(83, 86, 90);
-  --subtitulos-color: rgb(0, 0, 0);
+  --parrafo-color: #757575;
+  --subtitulos-color: #212121;
+  --hover-color: #2196f3;
+  --princptittle-color: #ffffff;
+  --maibutton-color: #f5f4fa;
 }
 
 .weblogo {
-  color: blue;
+  color: var(--hover-color);
   font-size: 26px;
   letter-spacing: 0.03px;
   line-height: 1.17;
@@ -25,7 +21,7 @@
 }
 
 .head_link {
-  color: black;
+  color: var(--subtitulos-color);
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.02px;
@@ -33,44 +29,44 @@
 }
 
 .head_link:hover {
-  color: rgb(0, 68, 255);
+  color: var(--hover-color);
 }
 
 .head_info {
-  color: rgb(83, 86, 90);
+  color: var(--parrafo-color);
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.02px;
   line-height: 1.17;
 }
 
-.headinfo:hover {
-  color: rgb(0, 68, 255);
+.head_info:hover {
+  color: var(--hover-color);
 }
 
 .principal_title {
-  background-color: rgb(36, 33, 33);
+  background-color: #2f303a;
   text-align: center;
 }
 
 .title {
-  color: white;
+  color: var(--princptittle-color);
   font-size: 44px;
   letter-spacing: 0.06px;
   line-height: 1.36;
 }
 
 .firstbutton {
-  background-color: rgb(0, 68, 255);
-  color: white;
+  background-color: #188ce8;
+  color: var(--princptittle-color);
   font-size: 16px;
   letter-spacing: 0.06px;
   line-height: 1.87;
 }
 
 .firstbutton:hover {
-  background-color: white;
-  color: black;
+  background-color: #188ce8;
+  color: var(--princptittle-color);
   cursor: pointer;
 }
 
@@ -113,8 +109,8 @@
 }
 
 .main_button {
-  background: beige;
-  color: black;
+  background: var(--maibutton-color);
+  color: var(--subtitulos-color);
   font-size: 16px;
   letter-spacing: 0.03px;
   line-height: 1.62;
@@ -122,8 +118,8 @@
 }
 
 .main_button:hover {
-  background-color: rgb(40, 117, 204);
-  color: white;
+  background-color: var(--hover-color);
+  color: var(--princptittle-color);
   cursor: pointer;
 }
 
@@ -141,8 +137,12 @@
   line-height: 1.87;
 }
 
+.footer_info {
+  background-color: #2f303a;
+}
+
 .foot_info {
-  color: var(--parrafo-color);
+  color: var(--princptittle-color);
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.03px;
@@ -151,13 +151,6 @@
 
 .list {
   list-style: none;
-}
-
-.link:focus {
-  color: rgb(0, 68, 255);
-}
-.link:active {
-  color: red;
 }
 
 .title_portfolio {
