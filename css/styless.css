@@ -4,6 +4,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+.second_font {
+  font-family: 'Raleway', sans-serif;
+}
+
 :root {
   --parrafo-color: #757575;
   --subtitulos-color: #212121;
@@ -147,6 +153,10 @@
   font-size: 14px;
   letter-spacing: 0.03px;
   line-height: 1.7;
+}
+
+.foot_info:hover {
+  color: var(--hover-color);
 }
 
 .list {
